@@ -1,0 +1,15 @@
+/* Result Page Specific Styles */
+.results {
+    background: #1c1c1c;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.results table th {
+    background: #333;
+    color: #fff;
+}
+
+.results table td {
+    background: #1c1c1c;
+}

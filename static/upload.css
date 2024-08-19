@@ -1,0 +1,42 @@
+/* Upload Page Specific Styles */
+.upload-form {
+    background: #1c1c1c;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px; /* Adjust the max width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.upload-form label {
+    display: block;
+    background: #00c6ff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.upload-form label:hover {
+    background: #00aaff;
+}
+
+.upload-form input[type="file"] {
+    display: none;
+}
+
+.upload-form button {
+    background: #00c6ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.upload-form button:hover {
+    background: #00aaff;
+}

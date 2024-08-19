@@ -1,0 +1,98 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0b0b0b;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header, footer {
+    background: #1c1c1c;
+    color: #ffffff;
+}
+
+header {
+    padding: 60px 0;
+    border-bottom: 1px solid #2c2c2c;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+a {
+    color: #00c6ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: #00c6ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #00aaff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #2c2c2c;
+}
+
+/* Utility Classes */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 2rem;
+}
+
+/* Forms and Buttons */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #333;
+    background: #1c1c1c;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    border-color: #00c6ff;
+    background: #2c2c2c;
+    outline: none;
+}
+
+input[type="file"] {
+    display: none;
+}

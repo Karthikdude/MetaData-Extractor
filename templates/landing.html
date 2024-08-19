@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='global.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='landing.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container text-center">
+            <h1>Welcome to My Metadata Extraction Service</h1>
+            <p>Dive deep into the metadata of your files and uncover hidden details effortlessly. Our service provides an intuitive and secure way to access all the information your files hold.</p>
+            <a href="{{ url_for('upload_file') }}" class="btn btn-primary btn-lg">Get Started Now</a>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Why Choose Us?</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="feature">
+                        <i class="fas fa-upload fa-3x mb-3"></i>
+                        <h3>Effortless Upload</h3>
+                        <p>Experience a seamless upload process. Drag and drop your files or use our simple upload button. It’s that easy!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature">
+                        <i class="fas fa-info-circle fa-3x mb-3"></i>
+                        <h3>Comprehensive Metadata</h3>
+                        <p>Access detailed metadata from images, documents, and videos. Get insights into file creation dates, camera settings, and more.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature">
+                        <i class="fas fa-shield-alt fa-3x mb-3"></i>
+                        <h3>Top-Notch Security</h3>
+                        <p>Your data is handled with the highest level of security. We ensure your files are safe and your privacy is maintained.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="text-center mb-4">How It Works</h2>
+            <p class="lead">Our platform simplifies the process of uncovering hidden metadata in your files. Upload any file—be it an image, document, video, or audio—and we automatically extract and display all embedded metadata. This includes everything from creation timestamps to detailed technical specifications.</p>
+            <p class="mt-3">Just drag and drop your file into our uploader or use the 'Select File' button to browse your device. Our advanced algorithms handle the rest, providing a detailed overview of the hidden data within seconds.</p>
+            <p class="mt-3">Whether you need to analyze the EXIF data in photos, retrieve document properties, or examine technical metadata in media files, our tool provides a comprehensive view of all your files' hidden attributes.</p>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="text-center mb-4">Understanding Metadata</h2>
+            <p class="lead">Metadata is essentially data about other data. It provides additional context and details about the file that isn't visible at first glance. This includes information such as the date a photo was taken, the author of a document, or technical details about a video file.</p>
+            <p class="mt-3">For images, metadata might reveal the camera model, exposure settings, and even the GPS location where the photo was captured. Documents can include details like the author, software used, and document revisions. Audio and video files contain metadata about recording equipment, duration, and format specifics.</p>
+            <p class="mt-3">Understanding this metadata can enhance your digital asset management and ensure privacy by disclosing potentially sensitive information before sharing files. Our tool makes it easy to view and understand all this hidden data in one place.</p>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="text-center mb-4">Why Use Our Tool?</h2>
+            <p class="lead">Our metadata viewer is not just a utility—it's a vital tool for anyone who wants to understand the hidden details within their files. Whether you are managing digital content, safeguarding your privacy, or simply exploring your files, our service is designed to meet your needs.</p>
+            <p class="mt-3">With our tool, you can ensure you're aware of all the metadata associated with your files before sharing them publicly. This includes sensitive information that might otherwise be overlooked. Our platform provides a secure and efficient way to handle and manage your metadata.</p>
+            <p class="mt-3">We prioritize your privacy and data security, offering a robust solution that not only reveals metadata but also ensures that your files are handled with the utmost care and confidentiality.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2024 Karthik S Sathyan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
